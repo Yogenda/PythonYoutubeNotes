@@ -1,0 +1,856 @@
+low level: 
+	machine language
+	Assembly language
+	
+heigh level:
+	general purpose
+	special purpose
+	scripting
+
+compiler: c, C++ (block of code execute at once)
+interpreter: js, python and php (line by line code execute)
+hybrid: python, java, C#
+
+python virtual environment - PVM  (hidden file pyc)
+
+platform independent language
+
+functions create : it is created to reduce the size of program into small chunks
+	if not data no function
+	function always works on the data
+
+object oriented
+	class
+		data
+			fun1()
+			fun2()
+
+Class is collection of objects
+Python supports both function and class
+
+Module:
+smallest piece is function
+then class
+module biggest
+
+------------------------------
+
+Feature of python
+- simple
+- easy to learn
+- scripting language
+- open source
+- general purpose 
+- interpreted (Hybrid)
+- platform independent
+- oops
+- huge liberty
+- scale
+- dynamic type nature
+
+--------------------------------
+
+Areas where python is used?
+- gui programming : tkinter, pygui
+- data science: pandas
+- Ai: TensorFlow, numpy
+- ML : numpy, pandas
+- Mobile Apps
+- multithreaded programming
+- game development: pygame
+- networking: geine
+- enterprise application 
+- web development: Django, flask
+- data base programming
+
+
+Data Type:  it defines the type of data
+1. Numeric type (2.1,3,0,-7)
+
+2. Variables(container) : it a named memory location to store the data.
+	- data
+	- instructions
+
+	age = 18
+	age is the variable
+	18 it the data
+
+	a = 10
+	a is the variable
+	= is initializing the value
+	10 is the data/ value
+
+Note: if we have data then we need a variable.
+
+no data type is required if you are working with python.
+
+()- function
+
+method 1: a,b,c = 5,6,7
+method 2: a=b=c=10
+
+
+3. Literals
+4. conversions	
+
+
+comment: non executable line, just for coders understating purpose
+
+2 types comment
+	- single line (#)
+	- multi line ('''  ''')
+
+
+python dynamically type language 
+
+x=10 (int)
+x=10.5 (float)
+x='x' (string/char)
+
+Note: there is no data type for the variables it depends on the type data
+
+type() function to find the type of data
+
+Note: everything in python is an object and every object is having the class
+
+
+Rules for declaring variables
+- Name can contains alpha-numeric characters and underscore.
+- Name always should start with a letter or underscore character.
+- Keywords should not be used.
+- Variables are case-sensitive.
+
+
+a=10  / roll_no=10
+
+Identifiers: given by the programmer
+variable name are the identifiers.
+
+
+Keywords: predefined words in programing or we can reserved words()
+
+
+
+
+data type:
+- Numeric
+	int 	(x=10)
+	float	(y=19.25)
+	bool	(z=true/false)
+	complex	(c=a+jb)
+- Sequence
+	list 	[1,5,8,7]	(mutable)
+	tuple	(2,9,8,9)	(immutable)
+	string	'hello'
+	bytes	0-255
+	bytearray
+- Set
+	set 	{2,5,6,7}	(mutable)
+	frozenset 		(immutable)
+	
+- Dictionary
+	dict	{key:value}
+
+
+Note: if we are assigning the new value to variable then new memory is created.
+
+most of the data type in python are immutable
+
+python prefer creating the new object or allocating the new space.
+
+What happened to the old value?
+it is collected into garbage by PVM
+
+
+Float:
+- number with decimal, value can be in + or -
+- number can be written in scientific format
+	0.1259e2 (e is exponent)
+	0.1259*10^2
+	0.1259*100
+	12.59
+
+Note: no specific range for it in memory
+
+
+
+complex: 
+
+used in maths
+they have real + imaginary
+a+ib a is real and b is imag i is predefined constant that is i=root of -1 this value is undefined in maths.
+
+in python it is provided in a+bj
+i is used for other purpose in language that's why we use j
+
+
+Literals
+Are the direct values written in the program or the direct data this written in the program.
+
+price=10
+price can be taken in 2 type user defined value and fixed values
+price=input("enter price") (but these values are of string type)
+price =30
+this time price is fix and content/literal
+
+we have literals of int, float, complex, string, bool type.
+
+Int litrals
+a=125
+b=12,520 (, is not allowed we can use _)
+b=12_520
+c=123_456_879
+
+
+Float Literals
+a=12.59
+b=13.0
+c=1.32e2
+	1.32*10^2 = 1.32*100 = 132
+d= 123_456_789.56
+e=123.4_5
+f=123_.45 (not possible)
+
+bool
+a= True
+b= False
+
+string/char
+name = "Yogendra"
+name = 'yogendra'
+
+----------------------------------------------------
+Class 4
+
+Type conversion
+conversion of one data type to another is called as type conversion.
+
+2 type of conversion
+- Implicit: done by python itself
+- Explicit: user have to do it manually
+
+int a = 4
+float a = 4.0
+
+float a= 4.6
+int a = 5
+
+function for type casting
+- int()
+- float()
+- complex()
+- bool()
+- str()
+
+Note: float won't work in to complex number.
+Note: Anything can be converted into sting.
+-------
+
+Operations & Expressions
+2 + 2 = 4 (expression)
+
+operand operator operand = result ( expression )
+2 it is operand
++ is operator 
+
+Operators
+	arithmetic: + - * ** / // %
+	assignment: = += -= *= **= /= //= %=
+	unary: -10 -num
+	relational: > < <= >= == !=
+	logical: and or not
+	Boolean: True False
+	bitwise: & | ~ ^ >> <<
+	identity: is isnot
+	special: + * []-slice r/R 
+	membership: in notin
+	mathematical: sqrt factorial sin cos .....
+
+
++	Addition
+-	Subtraction
+*	multiplication
+**	power
+/	division(float) decimal
+//	division(floor) quotient
+%	Modulus remainder
+
+c=a+b
+operators: = +
+operands: a,b,c
+
+1. area of rectangle = l*b
+2. area of triangle = 0.5*b*h
+3. area of trapezium = (a+b)/2*h
+4. Displacement = (v**2 - u**2)/(2a)
+5. equal roots= -b/(2*a)
+
+--------------------------------------------
+assignment arithmetic operators
+ =
++=
+-=
+/=
+*=
+//=
+%=
+**=
+
+a=5
+a=a+1
+
+count = 0 
+count = count + 1
+
+count = 5
+count = count - 1
+
+	+	-	*	/	//	%   **
+int 	1	1	1	1	1	1   1
+float	1	1	1	1	1	1   1
+bool	1	1	1	1	1	1   1
+complex	1	1	1	1	0	0   1
+str	1	0	1	0	0	0   0
+
+conditional statements
+- if 	for one condition
+- else	for false condition
+- elif	multiple if condition
+
+the execution of program is line by line but with condition we can change the flow based on the condition.
+
+if condition:(new student)
+	statement (subscribe)
+elif condition: (old student)
+	statement (like and share)
+else:
+	statement (attend the python class at 11:30)
+
+Note: for writing the condition we need the logical and relational operator.
+
+Logical Operator: AND, OR, NOT
+Relational operator: !=, ==, >=, <=, <, >
+
+Note: both the operators return bool values either true or false.
+
+a=10
+b=20
+if a<b true
+
+logical operators
+AND: both condition must be true
+truth table AND
+A	B	Result
+1	1	1
+1	0	0
+0	1	0
+0	0	0
+
+
+OR: at least one statement must be true.
+A	B	Result
+1	1	1
+1	0	1
+0	1	1
+0	0	0
+
+
+NOT: it negate the statement if true then false or vice versa.
+A	result
+1	0
+0	1
+-----------------------------------------
+Nested if and elif
+if we want to check the multiple statements the we can use elif statement
+
+eg: check the greater number among a,b,c
+
+if(condition):
+	statement
+elif(condition):
+	statement
+else:
+	statement
+
+Relational operator
+	<	<=	>	>=	==	!=
+int	1	1	1	1	1	1
+float	1	1	1	1	1	1
+bool	1	1	1	1	1	1
+complex	0	0	0	0	1	1
+str	1	1	1	1	1	1
+
+
+0000 = 0
+0001 = 1
+0001 << 1
+0010
+0010 = 2
+0011 = 3
+1+1=10
+
+~
+>>
+<<
+
+11 = 3
+111 = 7
+1111 = 15
+
+
+
+is, is not
+this operator is used to check if the variable is holding the same position or not.
+
+id(var) is used to find the id of the variable.
+
+
+jac board
+
+----------------------------------------
+
+Loops / Repeating Statements
+- while loop
+- for loop / for each loop
+
+
+if we want to execute the statement for multiple times we use the looping statemtnts.
+- for number of times.
+- as long as condition is true.
+
+
+while condition:
+	---------------
+	---------------
+	statement
+	---------
+
+HW (any 7 or all of it)
+1. display the multiplication table
+	5 x 1 = 5
+	5 x 2 = 10
+2. counting the numbers of digits in a number
+3. find the sum of digits in a number
+4. reversing a number.
+5. check if the number is palindrome.
+6. find sum of given numbers as input.
+7. find sum of positive and negative numbers.
+8. find maximum number from a given number.
+9. concert a decimal number to binary number.
+
+----------------------------------------
+Infinite loop - break - continue - pass
+
+Infinite loop- the loop which never end or break.
+
+break: to stop the program we use the break statement
+terminate the program in middle
+
+continue: it used to continue the statement execution
+eg, i don't want to print the multiplier of 3 only.
+
+pass: if we don't wanted to do anything in certain cases we can pass the value
+Pass karne pr ye program continue chalega bich me break nhi hoga
+it is null operator
+
+
+else suite : we can use else with
+- if
+- while
+- for
+- try
+
+Note: with while it will be executed if the value become false and if we break the statement using break than the else block won't execute.
+
+Do you wanted to learn java and python from scratch ?
+Don't miss out to check my youtube channel where i will take daily live classes on java and python.
+https://www.youtube.com/@CodingYogendraBire
+ 
+Python Live class 11:30 AM to 1:30 PM - 2hr (Mon - Sat)
+Java from 8 July at 8:00 PM to 9:30 PM - 1.5hrs (Mon - Fri)
+Special Session Sunday 11:30 AM to 1:30 PM (Sunday Q&A)
+
+-------------------------------------------------------
+
+For loop : is used to print the statement multiple number of times.
+
+msg = 'hello'
+       01234
+Array= array is collection of same type / homogeneous type of data elements.
+
+range(start, stop, step)
+
+h/w
+- display the multiplication table for a given number.
+- find the factorial of a given number.
+	using for loop
+	5! = 1x2x3x4x5=120
+- print n terms of AP series. (5 terms)
+	5, 7, 9, 11, 13
+	7-5=2
+	9-7= 2
+- print n terms of Fibonacci series.
+	0,1,1,2,3,5,8,13
+- find the factors of a number.
+- check the number is prime of not.
+randint(1,10)
+
+-----------------------------------------------------------
+
+Nested Loop
+	when we have loop inside the loop it is called as nested loop.
+
+first outer loop will execute for 1 time and then wait for inner loop to complete and then again outer and then again inner loop will end. till will run until outer loop is fully executed.
+
+HW
+- print prime numbers from 1-100
+- patten
+*
+**
+***
+****
+*****
+
+---------------
+
+*****
+****
+***
+**
+*
+
+---------------
+
+*
+**
+***
+****
+****
+***
+**
+*
+
+--------------
+
+1
+12
+123
+1234
+12345
+
+------------------
+
+11111
+2222
+333
+44
+5
+
+---------------
+
+666666
+55555
+4444
+333
+22
+1
+
+---------------
+
+1
+23
+456
+7891
+23456
+
+--------------
+
+654321
+54321
+4321
+321
+21
+1
+
+------------
+
+1
+33
+555
+7777
+99999
+
+-------------
+
+1
+2 4
+3 6 9
+4 8 12 16
+5 10 15 20 25
+6 12 18 24 30 36
+
+----------
+
+A
+AB
+ABC
+ABCD
+
+---------
+
+A
+BC
+DEF
+GHIJ
+
+------------
+
+AAAA
+BBB
+CC
+D
+
+------------
+
+DDDD
+CCC
+BB
+A
+
+-------------
+
+   *
+  ***
+ *****
+  ***
+   *
+
+
+------------------------------------------------------------
+class 10
+
+Match case / switch case (other language)
+
+input in a
+match a
+	case 1:
+		statement
+	case 2:
+		statement
+	case 3: 
+		statement
+	case _:
+		default statement
+
+HW
+- accept the month number and find the days.
+- accept the month number and find the days if entered number 2 then ask for year and check if the year is leap year or not.
+- accept the number and check if it's an odd or even number.
+- accept the age and find if the person is eligible to vote or not.
+
+​​pydroid for mobile python program.
+
+
+String
+Collection of characters
+
+s1= 'hello'
+s2= '!@#$'
+
+Note: string are having indexes starting from 0
+
+s1= 	h	e	l	l	o
+	0	1	2	3	4
+
+s1[1] = e
+
+len it will starts counting from 1
+and index starts from 0
+
+
+operations on string
+Note: String are non-mutable
+
+- Concatenation
+- Repetition 
+- Indexing
+- Slicing
+- in
+- not in
+
+Note: Str() it is a sting conversion function if we pass any value in it we can convert that into any type.
+
+
+if we want to multiply the string or we want to display the string for many times we can do the string repetitio.
+
+s3='hello '*3
+print(s3)
+
+Note: it can only be multiplied with int.
+
+indexing
+s1 = hello
+s1=	h	e	l	l	o
+	0	1	2	3	4
+	-5	-4	-3	-2	-1
+
+------------------------------------------------------------
+
+Reverse string
+s1=HELLO WORLD
+
+O/p:- HLOWRD
+
+Slice: cut a specific part from a string
+
+s1[start:end:step]
+Note: start, end and step are optional
+
+hello worl d
+1234567891011
+
+HLOWRD
+
+in: check if the word exist in string
+in and not in are called as member operators
+
+
+as a coder or a programmer how to became consistency in coding
+------------------------------------------------------------------------
+
+String Method
+
+S= 'hello how are you'
+<class 'str'>
+
+Class is definition (design of house)
+object is instance of an object (this is a house)
+
+class is on paper
+object is real
+
+class contains --> data, operations
+operation / function
+
+Note: functions present in class are called as methos.
+
+we can find the methods present in the class str by using "dir(str)"
+
+if i want to know what a specific function do
+
+Help(s.functionName)
+
+s.find(sub[,start[,end]])  -- done
+s.rfind(sub[,start[,end]])  -- done
+s.index(sub[,start[,end]])  -- done
+s.rindex(sub[,start[,end]])  -- done
+s.count(sub[,start[,end]])  -- done
+
+s = 'hello, how  a r e   y o u' 
+     01234567891011121314151617
+
+s.find('o') --4
+s.find('how') --7
+
+if not find it return -1
+
+print(s.find('o',5,7))
+print(s.rfind('o')) (right find)
+print(s.rfind('o',0,15))
+
+
+index and find methos works same but there is small difference.
+rindex and rfind methos works same but there is small difference
+count count how many times a character is repeated.
+Note: if values not found in count then return  0 as value. If values not present in index or in rindex it will return error as output.
+
+------------------------------------------
+
+Class 14
+
+s.ljust(width [,fill])
+python_ _ _
+s.rjust(width [,fill])
+_ _ _ python
+s.center(width [,fill])
+_ _ python * *
+
+fill is used if we want to fill the empty space using something.
+
+Note: it will not modify the same string instead it will create the new string.
+
+s.strip([chars]) // remove space from both side
+s.lstrip([chars]) // remove space from left side
+s.rstrip([chars]) //to remove the space from right side
+
+These are used to remove the character from the string
+by default it removes the spaces
+
+Note: These all return a new string
+
+s = hello students	s.capitalize()		s = Hello students
+s = HellO sTudeNts	s.lower()		s = hello students
+s = HellO sTudeNts	s.upper()		s = HELLO STUDENTS
+s = HellO sTudeNts	s.title()		s = Hello Students
+s = HEllO		s.swapcase()		s = hello
+s = HELLO		s.casefold()		s = hello
+
+
+s.isupper()
+s.islower()
+s.istitle()
+
+---------------------------------------------------
+Class 15
+
+s.isalnum() -- alphabet and number
+s.isalpha() -- only alphabets
+s.isspace() -- it will check the space.
+s.isacii()  -- A = 65 a = 96 (all English words-true)
+s.isidentifier() -- proper variable name
+s.isprintable() -- wheter the sentence is printable or not - \n \t \r there are non printable
+s.isdecimal() --
+s.isdigit() --
+s.isnumeric() --
+---
+s.startwith(prefix [,start,[end]])
+s.endswith(prefix [,start,[end]])
+s.removesuffix(suffix,/)
+s.removeprefix(prefix,/)
+s.partition(sep)
+s.rpartition(sep)
+
+startswith checks if the string starts with prefix given.
+endswith checks if the string end with prefix given.
+
+Python is very easy programming
+0123456789
+
+removesuffix remove the string given and gives you the new string.
+removeprefix remove the string given and gives you the new string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
