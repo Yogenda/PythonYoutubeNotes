@@ -829,16 +829,53 @@ Python is very easy programming
 removesuffix remove the string given and gives you the new string.
 removeprefix remove the string given and gives you the new string.
 
+-----------------------------------
+Class 16
+
+Partition do the separation from word given and forms a tuple, the partition is done from left.
+
+rpartition do the separation from the word given and form a tuple, the partition is done from right to left.
 
 
+s.replace(old,new[,count]): replace the value we want to replace.
+s.join(inerable): it add the separators in between the string.
+s.split([sep[,max split]]): by default it will split form space and store in a list format.
+s.rsplit([sep[,max split]]): it starts splitting from right side.
+s.splitlines([Keepends]): split and splitline are kind of same as the split works on spaces then the splitline works on new line.
+
+H.W
+- sorting letters of a string
+ s1 = dflkswqpoi
+method name is sorted(s1)
+and then join for a full string
+
+- display data in given format (25 letters)
+product name........price
+chicken pizza.......300
+
+take the input of product and price and count number of letters used and then subtract.
+
+- check if the password and confirm password are same.
+	take 2 input and then compare
+	to check the case use the casefold
+
+- display credit card number
+	card no- 1234567898765
+	display- **** **** **** 8765
+take the 16 digit card number and print  only last 4 digits of card number and replace others with ******
 
 
+- Find user id and domain name from email address
+	test@gmail.com
+	test is user name
+	gmail.com domain name
 
 
-
-
-
-
+- check a string is palindrome
+- convert a given string to palindrome
+- find day month and year from date
+	dd/mm/yyyy
+- rearrange lowercase then uppercase
 
 
 
