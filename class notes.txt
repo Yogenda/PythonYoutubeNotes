@@ -876,6 +876,67 @@ take the 16 digit card number and print  only last 4 digits of card number and r
 - find day month and year from date
 	dd/mm/yyyy
 - rearrange lowercase then uppercase
+---------------------------------------------
+class 17
+ASCII vs Unicode
+stating point is 0 till 127
+0 - 48
+9 - 57
+A - 65
+a - 97
+ASCII code is for English
+Separate code are available for different languages when combined together are called as Unicode.
+
+these can be of different bit
+1 byte - 8bit - utf8
+2 byte - 16bit - utf16
+3 byte - 32bit - utf32
+
+Escape Sequence Table
+\n	New Line
+\r	Carriage Return
+\f or\x0c	Line feed
+\t	Horizontal tab (8 spaces gap)
+\v or \x0b	Vertical tab
+\a	Alert
+\b	Backspace
+\o 	Octal
+\x	HexaDecimal
+\u	Unicode
+
+\\	Backslash
+\"	double quote
+\'	Single Quote
+\x85	Next line
+
+
+how print function works
+print(object,[sep= , end= , file=sys.stdout, flush=false])
+
+NOTE: Everything in python is an object it can print any object we define. 
+
+As and when we are using the print function then it is printing in new line.
+to remove this issue we can use end=''
+
+flush is use to remove the space from buffer memory.
+Flush = true (it will surly print the value on the screen) 
+Useful while using the multithreading programming.
+
+
+Style the string same as C language.
+%s = string
+%d = decimal
+%f = float
+%i = integer
+%o = octal
+%x = hex decimal
+%g = general form
+
+
+
+
+
+
 
 
 
