@@ -932,8 +932,38 @@ Style the string same as C language.
 %x = hex decimal
 %g = general form
 
+------------------------------------
+Session 18
+List: it is collection of objects.
+list is the ordered collection of object which allows duplicate values also.
+
+it is same like array in other programming language.
+
+Note: list can have duplicate values.
+
+2 type we can create the list:
+- List1=[1,2,3,4,5]
+- List2= list((1,2,3,4,5))
 
 
+list() - this is function
+inner () is called as grouping the values
+
+List are heterogenous(allow different type of data)
+
+NOTE: List is a collection of heterogenous object which allows duplicate values
+NOTE: List is Mutable in nature.
+
+
+append function: it is used to add number value at the end
+
+Operators on list:
+- index
+- slice
+- concatenation
+- repeat
+- in
+- not in
 
 
 
