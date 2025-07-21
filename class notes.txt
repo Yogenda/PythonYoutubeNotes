@@ -965,6 +965,23 @@ Operators on list:
 - in
 - not in
 
+----------------------------------------
+Class 19
+
+Iterating the list: Accessing all the elements in the list
+or we can say traversing.
+
+we can achieve by using 3 ways
+- for loop
+- for loop with range
+- while loop
+
+List methods
+- append(x): add the new item in the same list 
+- extend(iterable): it is same as append but this is for collection of objects. But that should be in list or in the inerrable form.
+NOTE: It will do change in the same list. New list is not create.
+- insert(i,x)
+- copy()
 
 
 
