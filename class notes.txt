@@ -983,12 +983,30 @@ NOTE: It will do change in the same list. New list is not create.
 - insert(i,x)
 - copy()
 
+--------------------------------------------------------
+Class 20
+insert(i,x): Insert is used to insert the value at specific index.
+[5,4,3,2,1]
+i- position
+x- value
+
+Copy(): method created the copy of the main list and provide you the new list.
+it create the shallow copy of main list not the deep copy(The values are pointing to the main list).
+
+Remove the elements from the list we have another methods
+- pop([i]): remove the element at given index if index is not given the last value of element will be remove.
+- remove(x): method delete the first given element in the list. if not found it will show us the error.
+- clear(): method clear all the elements from the list.
+
+del: we have del method also same as pop be in del we have to mention the location
 
 
+- index(x[,start[,end]])
+- count(x)
+- reverse()
+- sort(*, key=none, reverse=false)
 
-
-
-
+Sorted is a global independent function it provides us the new list, it won't modify our existing list.
 
 
 
