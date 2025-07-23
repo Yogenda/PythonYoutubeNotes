@@ -1008,6 +1008,63 @@ del: we have del method also same as pop be in del we have to mention the locati
 
 Sorted is a global independent function it provides us the new list, it won't modify our existing list.
 
+-----------------------------------------------------
+class 21
+List Comprehensions
+
+l1 = [expression for item in iterable]
+
+l1=[x for x in range(10)]
+l2=[x**2 for x in range(1,6)]
+l1=[x for x in (10,5,9,8,7,3,4,15,21,46,98,32) if x%2==0]
+l1=[x.lower() for x in 'CodINg']
+l1=[x for x in 'abc^$%123jutest87#)' if x.isalpha()]
+data = [input("Enter your names: ").split()]
+
+HW.
+- Calculate salary, weekly working hours given in a list.
+	1day - 5hrs
+	2day - 6hrs
+	etc.
+	work=[5,6,7....]
+	per hour wage that is 1000 rs calculate its salary.
+
+- checking and removing if there is any duplicate in a list
+	type 1. create by adding item into new list
+	type 2. don't use new list.
+
+- concatenate all integer from a list to a single number
+	l1 = [3,4,5,6,7]
+	o/p= 34567
+
+- overlapping elements of two list
+	l1 = [10,15,6,9,12,8,4]
+	l2 = [14,16,6,19,4,7,10,11]
+
+- find the numbers of occurrence of each item in list
+
+l1= [a,b,g,a,y,t,b,s,e,t]
+o/p = ['a',2,'b',2,'g',1.......]
+
+--------List completed-------------
+Tuple are immutable
+
+t1=('Yogendra', 123, 1.50, 5+6j,'Yogendra',45)
+it can include the duplicate values
+
+NOTE: we cannot change the value in tuple
+	No append method.
+
+It tuple we have to put the values in (),
+NOTE: if we want to add only one value then we have to add the "," then only it is a valid tuple
+eg: t1=(), t1=(10) not possible, t1=(10,) possible
+
+
+
+
+
+
+
 
 
 
