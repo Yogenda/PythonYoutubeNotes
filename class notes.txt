@@ -1046,7 +1046,8 @@ HW.
 l1= [a,b,g,a,y,t,b,s,e,t]
 o/p = ['a',2,'b',2,'g',1.......]
 
---------List completed-------------
+---------------------------
+class 22
 Tuple are immutable
 
 t1=('Yogendra', 123, 1.50, 5+6j,'Yogendra',45)
@@ -1060,9 +1061,23 @@ NOTE: if we want to add only one value then we have to add the "," then only it 
 eg: t1=(), t1=(10) not possible, t1=(10,) possible
 
 
+Packaging and unpacking
+NOTE: unpackaging can happen with any of the type but packaging will be done only with tuple
 
 
+Tuple methods
+- count()
+- index()
 
+Comprehensions are the short methods of creating the sequence of tuple obj
+
+tuple iteration and operations
+- []
+- [:]
+- +
+- *
+- in 
+- not in
 
 
 
