@@ -1078,6 +1078,56 @@ tuple iteration and operations
 - *
 - in 
 - not in
+---------------------------------------------
+Class 23
+
+SET: is the collection of elements or objects (Mutable)
+- Heterogeneous 
+- unordered
+- No Duplicates
+- Growable
+
+Note: there is no concept of position. it is created { }
+
+Set is mutable
+We can insert more values but we can not modify the existing value.
+
+set are stored in the form of hash.
+H(x)=x%10
+5
+10
+21
+15
+3
+11
+
+h(x) = x%10
+h(5) = 5%10 = 5
+
+insert a value take - O(1)
+Searching Take - O(1)
+
+if 50 % hash table filled then the hash will be changed. 
+
+
+sets are same as in maths.
+s={1,2,3,4,5,6,7,8,9,10}
+
+a={1,2,3,5,7}
+b={5,7,9,10}
+c={1,2,3,4,5,6,7,8,9,10}
+
+d={1,2,3,4,5}
+e={6,7,8,9,10}
+
+Set
+subset
+superset
+proper subset
+proper superset
+disjoin sets
+
+
 
 
 
