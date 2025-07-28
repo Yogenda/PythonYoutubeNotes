@@ -1127,8 +1127,28 @@ proper subset
 proper superset
 disjoin sets
 
+-----------------------------------------
+class 24
+- union(iterable)
+- intersection(iterable)
+- intersection_update(iterable)
+- difference(iterable)
+- difference_update(iterable)
+- symmetric_difference(iterable)
+- symmetric_difference_update(iterable)
 
+- issubset(iterable)
+- issuperset(iterable)
+- isdisjoint(iterable)
 
+- add(): add the new value in the same set (only one value add)
+- copy(): copy the main set and create the new set.
+- update(): it update the value and if the value exist then not able to add.
+
+- pop(): delete 1 element random
+- discard(): we have to mention the element.
+- remove(): same as discard but the diff is it will show error if value not present in list.
+- clear(): remove the element from the set and make as empty set
 
 
 
