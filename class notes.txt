@@ -1150,6 +1150,31 @@ class 24
 - remove(): same as discard but the diff is it will show error if value not present in list.
 - clear(): remove the element from the set and make as empty set
 
+------------------------------------------
+class 25
+Dictionary
+concept of hash table which stores the value in pair, 
+helpful for faster search.
+
+abacus: a calculator
+cable: strong rope
+{}
+dictName = {key:value}
+dict1 = {'abacus':'a calculator','cable':'strong rope'}
+
+list and set are the collection of elements or obj
+but Dictionary it contains key and value pair/entry/item
+
+in value we can take any data type
+in key we can only take those data type which are immutable (except set and list)
+
+if we delete the key the value will automatically be deleted.
+
+dictionary comprehensions 
+
+
+
+
 
 
 
