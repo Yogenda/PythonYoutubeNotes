@@ -1172,12 +1172,37 @@ if we delete the key the value will automatically be deleted.
 
 dictionary comprehensions 
 
+------------------------------------------
+class 26
+get(Key, value)
+
+key(): it gives all the keys in the form of list
+value(): it gives all the values in form of list
+items(): it gives the order pair of key and value in tuple form
+
+dict methods
+- copy()
+- update(interable)
+- setdefalut(key,defalu value)
+- fromkeys(seq, value)
+
+delete mthods
+- pop(key, default)
+- popitem()
+- clear()
 
 
+H/W
+1. find the anniversary of a person in a dictionary
+	ann = {'abc':'23/11/2023',.......,....}
 
 
+2. find the meaning of a word from the dict
+	word ={'apple':'Sabe',............}
 
 
+3. find the country name starting with letter A,b,c....
+	coun = {'A':['ault'], 'b':['.....'],..........}
 
 
 
