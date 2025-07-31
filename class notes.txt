@@ -1204,6 +1204,83 @@ H/W
 3. find the country name starting with letter A,b,c....
 	coun = {'A':['ault'], 'b':['.....'],..........}
 
+------------------------------------------
+class 27
+Functions:  it a piece of code which preforms the specific task.
+
+Benefits:
+- better organization of code
+- write once use many time.
+- make out code small.
+- no chance of error while writing the code.
+- reduce the size of code.
+
+programs can be broken down into
+- Application
+- Modules
+- Functions / procedures / method
+
+how to write a function
+def fun_name(par1,par2)
+	stmt1
+	stmt2
+	return result
+
+fun_name(apar1, apar2)
+return_var = fun_name(apar1, apar2)
+
+id of the value are same as outside functions.
+
+Note: if we are not returning  anything we will get the none result.
+
+positional or keyword arguments
+positional arguments: specifying the values in the function in the same order.
+def sal_per(basic, allowance, deduction):
+    net = basic+allowance-deduction
+    return net
+
+print('net salary is: ', sal_per(8000, 2000, 1000))
+
+
+keyword arguments: giving the name of arguments in function calling 
+def sal_per(basic, allowance, deduction):
+    net = basic+allowance-deduction
+    return net
+
+print('net salary is: ', sal_per(deduction=1000,basic=9000,allowance=3000))
+
+Note: while mixing the type of arguments we have to make sure that first we have to give all the positional arguments and then we have to give all the keyword arguments. 
+
+Default Arguments: we can assigne the default value to a function.
+def add(a,b=0,c=0): 
+    return a+b+c
+
+print(add(10,20))
+
+Note: while defining the default arguments it should always come after the positional argument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
