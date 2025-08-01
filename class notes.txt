@@ -1259,6 +1259,53 @@ print(add(10,20))
 
 Note: while defining the default arguments it should always come after the positional argument.
 
+------------------------------------------
+class 28
+Mixed position or keyword arguments
+
+how to make the arguments fixed to position or keyword args
+
+add(a,b,c,d,e):
+	return a+b+c+d+e
+
+add(2,5,8,9,7) //position
+add(b=6,d=4,e=7,a=2,c=9) //keyword
+
+def add(a,b, / ,c,d,e,f):
+    return a+b+c+d+e+f
+/ means before it all the values are positional. and after that we can use the keyword.
+
+def add(a,b, / ,c,d,*,e,f):
+    return a+b+c+d+e+f
+* the value should be only keyword arg.
+
+
+Variable Length Arguments: it can take as many arguments we need and will stored in a form of tuple.
+def add(*args)
+
+def fun1(a,b,*args):
+    print(a,b,args)
+If we will leave the function blank then we will get the error. 
+
+unpacking args
+def fun1(a,b,c):
+	print(a,b,c)
+
+
+def fun1(a,b,c):
+	print(a,b,c)
+l=[10,20,30]
+fun1(l[0],l[1],l[2]) //unpackaging manually
+fun1(*l)
+
+* it will automatically distribute the values.
+
+
+
+
+
+
+
 
 
 
