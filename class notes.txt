@@ -1300,21 +1300,67 @@ fun1(*l)
 
 * it will automatically distribute the values.
 
+store multiple values in the different variable
+
+------------------------------------------
+class 29
+
+keyword variable length arguments.
+
+variable length arguments
+def fun1(*args):
+	print(arg)
+
+keyword variable length arguments.
+def fun1(**kwargs):
+	print(kwargs)
+
+Mixed arguments
+def fun1(a,b,*args,**kwargs):
+	print(a,b,args,kwargs)
 
 
+always keyword variable length arguments will be stored in the form of Dictionary.
 
 
+iterator and generator
+
+iterator means looping through all the values of list or any iterable value.
+visit all the iterable values/elements
+
+built in function iter()
+
+l=[1,2,3,4,5]
+i = iter(l)
+print(i)
+print(next(i))
+
+it will work for all like set, list, tuple, and also work with dictionary but gives only the key.
 
 
+generators
+function which are same as iterator which we write and use  next to take the next value. 
+yield holds the value.
+if we run again it starts from there we stop.
 
 
+Local and global variable
 
+a=10
+def fun1(x,y):
+    z=x+y
+    print(z)
+    print(a)
 
+fun1(4,1)
 
+a is global var (all in the program)
+x,y,z are the local var (only in function)
 
+Local var can not be used outside the function
 
-
-
+Note: function can not modify the global var it can just read them
+to make it work we have to use the global var.
 
 
 
