@@ -1363,6 +1363,12 @@ Note: function can not modify the global var it can just read them
 to make it work we have to use the global var.
 
 
+------------------------------------------
+class 30
+Recursive Function: Function calling itself are called as recursive function.
+
+Build in functions
+python Doc: https://docs.python.org/3/library/functions.html 
 
 
 
