@@ -1371,10 +1371,32 @@ Build in functions
 python Doc: https://docs.python.org/3/library/functions.html 
 
 
+------------------------------------------
+class 31
+chr: it will give you the character value of an ASCII code.
+print(chr(65))
 
+ord: it will take an char and give its ASCII code.
+print(ord('A'))
 
+complex(): it is used to make the complex data type.
+dict(): this is for dictionary
+dir(): give you the details of particular class.
+divmod() it gives you the division and modules of a number.
+Enumerate(): it gives the indexing of all the values preent in the list or an iterable datatype.
+Eval(): It evaluates the string of numbers and gives the result.
+Exec(): it execute the python statements.
+filter(): it filters the objects form the iterable based on the function we have given.
+float(): it convert the datatype in to float.
 
+Format(): convert the number as per the flag for reference refer the documentation.
 
+frozenset(): it takes an lireral and conver into set that is immutable.
+globals(): it gives you the global variable in the form of dictionary.
+Locals(): it gives you the local variable.
+hasattr(): has attribute it help us to find the value are having some attribute or not.
+hash(): if we use hash it show us the hash code for the particular value.
+help(): it give the details of the methods.
 
 
 
