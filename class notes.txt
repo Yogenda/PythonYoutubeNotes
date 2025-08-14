@@ -1398,7 +1398,90 @@ hasattr(): has attribute it help us to find the value are having some attribute 
 hash(): if we use hash it show us the hash code for the particular value.
 help(): it give the details of the methods.
 
+------------------------------------------
+class 32
+hex(): it used for base conversion convert any value in hex decimal
+id(): it provides you the id of an object.
+input(): used to take input from user.
+int(): used to convert type.
+isinstance(): use to find if the object is the instance of a particular class or not.
+issubclass(): it will tell us whether the class is the sub class of the main or not.
+iter(): it is used to ierate teh elements of the list. used with next()
+len(): find the length of an sequence.
+list():used to create the object of list.
+local(): gives us the local variable of function.
+object(): create the empty object of the class the base class of all  python.
+oct(): base convertion function convert the value in octal value.
+print(): used to print value.
+range(): give us the range
+set(): create the set.
+str(): create the object of string.
+super(): used to refer the super class of parent class.
+Tuple(): create the object of tuple class.
+type(): give us the type of value.
+map(): used to map and create the new list.
+max(): it finds the maximum element from the list
+min(): give you the minimum element from the list.
+sum(): it gives you the sum of all the elements in the list.
+sorted(): it will sort the value from the list.
+zip():it will join the corresponding elements of 2 sequences
+Reversed(): it is same as iterator and just diff is it iterate in reverse order.
+pow(): used to calculate the power
+round(): it do the roundup of the floating value.
 
+Modules contains 
+- function
+- variable
+- class
+
+we can use these in another module.
+modules are nothing but the python files
+
+Note: ever python file can be a module and can be imported into another file.
+
+when we create the module we have to import
+2 ways to import
+- import ModuleNmae as mn
+- from ModuleName import *
+
+when we run the moduleone with the __name__ the __main__ will be printed.
+when we run pythonclass32 it run moduleone.
+
+Note: when we run the python file its name is main. and when we import the python file into another program then the name will be same as the file name we imported
+
+when the name is __main__ then we need to print.
+
+Note: when we are creating the module always remember that we have to run our program but while impring it we don't want to run, we want only function and the variables or classes so always write the main function in the condition of if __name__ =='__main__':
+
+H/W
+- find the difference b/w 2 numbers
+	it must be less than 5 not more than 5.
+
+- find the maximum of 3 numbers
+
+- positional arguments
+	print message
+	eg: my name is Yogendra, I am a Trainer
+
+- take the id as parameter in the function and return the name of the student.
+	id	name
+	1	Rahul
+	2	Hemant
+	3	Shaksham
+	4 	Abhishek
+
+- sum of numbers ending with 0
+	num=[200,350,789,468,234,450]
+
+- invert the dictionary
+	convert keys to values
+		values to keys
+
+	b- {'a':10,'b':20'}
+	a- {10:'a',20:'b'}
+
+- count letters
+	upper case and lower case
 
 
 
