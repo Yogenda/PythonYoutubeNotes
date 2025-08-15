@@ -1483,6 +1483,34 @@ H/W
 - count letters
 	upper case and lower case
 
+-----------------
+Class 33
+Nested function
+	- function in an object
+	- nested function
+	- function as parameters
+	- function return as function
+
+we can assignee the function in an object or a variable.
+
+Note: function inside a function is called as nested function or encapsulation of a function.
+
+inner function will only be called inside the outer function.
+
+when function is returning the another function is known as function returning a function.
+outer function is also called as factory function.
+
+
+closure function.
+- nested function
+- accessing non local variables
+- return nested function
+- caller class
+
+caller class
+__call__ where we use __ it means we are over riding the existing metho that are been used by python. 
+
+
 
 
 
