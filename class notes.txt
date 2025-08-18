@@ -1510,6 +1510,85 @@ closure function.
 caller class
 __call__ where we use __ it means we are over riding the existing metho that are been used by python. 
 
+-----------------
+Class 34
+Decorator function
+- Passing function as parameters
+- Nested function calling parameters function
+- return nested function
+- @ for decoration
+
+Lambda expression /function:
+- Anonymous function
+- single line expression
+- any number of arguments
+
+syntax: 
+Lanbda arguments : Expression
+
+
+Exception Handling?
+run time errors handle
+- syntax error ( typing mistakes are done)
+- Logical error (wrong logic are used)
+- Runtime error (error occur while running program)
+
+a=20
+b=7
+c=2
+a//b-c
+a//(b-c)
+BODMAS
+
+Exception - user
+error - programmer
+
+Developer side error
+- syntax error
+- logical error
+
+user side
+Run Time error
+- invalid input
+- file not found
+- no connection
+
+run time errors occur while mishandling the s/w from the client side.
+
+developer is the only one who takes care of run time errors and handle them.
+
+- Type error and value error
+- zeroDivisionError
+- indexError
+- KeyError : 
+
+We use try and except block to handle the exception.
+
+--------
+-----
+----
+try:
+	---------
+	------
+	-----
+except: 
+	----------
+----------
+-
+------
+----
+
+lines may cause exception that will be written in try block
+to handle the exception we use the except.
+
+if you dont use try or except block then program will crash.
+
+
+
+
+
+
+
 
 
 
