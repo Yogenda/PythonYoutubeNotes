@@ -1584,7 +1584,46 @@ to handle the exception we use the except.
 if you dont use try or except block then program will crash.
 
 
+-----------------
+Class 35
+can we handle the exception without the try catch?
+	Yes we can do that.
+	
+def div(a,b):
+	if b!=0:
+        c=a/b
+        return c
+else:
+		return -1
 
+a = int(input('enter the value of A: '))
+b = int(input('enter the value of B: '))
+c=div(a,b)
+if c==-1:
+    print('value not divide by 0')
+else:
+    print(c)
+
+
+Try-except-else
+-----
+------
+------
+try:
+	--------
+	--------
+	--------
+except:
+	---------
+else:
+	-------
+
+else will be execute when the loop or condition is executed sucessfully.
+
+finally block is the block which always excute wheter we get the excedption or not.
+
+
+Note: if function is reeturning someting then the function stopes ther only but if we have  finally then it will first execute the block then it will return 
 
 
 
