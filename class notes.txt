@@ -1625,8 +1625,58 @@ finally block is the block which always excute wheter we get the excedption or n
 
 Note: if function is reeturning someting then the function stopes ther only but if we have  finally then it will first execute the block then it will return 
 
+when to use the finally?
+used for cleanup process
+eg when we open a file we have to close it.
+-----------------
+Class 36
+user defined exceptions
+
+builin exceptions:
+base exception
+	- Exception
+		- Attribute error
+		- Arthmetic error
+			- ZeroDivision error
+			- Floating point error
+			- Overflow error
+		- EOF error
+		- Name error
+		- OS error
+			- FileNotFound error
+			- Interupted error
+			- Permission error
+			- TimeOut error
+		- Lookup error
+			- Index error
+			- Key error
+		- Type error
+		- Value error
+	- SystemExit
+	- GeneratorExit
+	- KeyboardInteruption
 
 
+h/w: 
+1. negative age exception.
+	- kid: less than 13
+	- teen: b/w 13-19
+	- young: age b/w 19-50
+	-old : age greater than 50
+	
+We have to pass the exception if the age is -ve name of class will be negative age excpetion.
+Take the age input from user outside the functino.
+
+
+- Account bal exception.
+	withdraw: Balance should be greater then 1000
+	
+	min balanage is 1000 and if the amount gones below ths start display us the exection.
+
+file handling
+oops
+multi threading
+data and time
 
 
 
