@@ -1678,11 +1678,67 @@ oops
 multi threading
 data and time
 
+-----------------
+Class 37
+File Handling:- 
+
+file_handler = open(filename, mode)
+
+what is file:- it used to store data permanently.
+To access the file we need the name and the path of the file.
+
+- create the new file MyData.txt
+- we have the method ie. open(filename, mode)
+
+File pointer
+data will be in the form of array and once we call the read method then it will go to each letter one by one and print it.
+
+Note: one we are done with the file we have to close it "file.close()"
+
+as file cloasing is important / mandatory and we have close the file every time the we have to write the file into the finally block.
+
+Modes of opening the file.
+	- r = to read data from file
+	- w = to write data from file
+	- a = to append data to the file
+	- x = to open the new file in exclusive creation mode.
+	- r+ = read and write the data of a file
+	- w+ = to write and read data into a file
+	- a+ = to append and read data of a file
+
+'r' it reads the data from the filebut if file not present there  FileNotFound error will come.
+
+'w' use to write the data into a file. file may or may not existe if not there then it will creast the file by itself.
+
+'a' same as write, file must be there, and data will be written from the end of the line.
+
+'r+' read the content and write the content in the end.
+
+'w+' write the content and then read the data.
+
+'a+' append read the file
+
+'x' same as write, file must not be there. if file is ther then you will get the error 'FileAlreadyExisted'
 
 
+every object having 2 things
+- Properties
+	- f.name
+	- f.mode
+	- f.closed
+- Method
 
+when we use open or any other method so lets see what class are the object belongs to.
 
+- print(file.name) - the location of a file
+- print(file.mode) - tell the mode of file
+- print(file.closed) - tells wheter the file is closed or not
 
+lets see the methods
+- read(): used to read data from user
+- readline(): it just read one line
+- readlines(): to read all the data from the file and gives us the element of the list
 
-
+- write()
+- writelines(): tie writes the sequence of character/line
 
