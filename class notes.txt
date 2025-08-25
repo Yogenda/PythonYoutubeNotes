@@ -1742,3 +1742,56 @@ lets see the methods
 - write()
 - writelines(): tie writes the sequence of character/line
 
+------------------
+Class 38
+file.flush(): use to fluch the content of buffer to file. to clear the fuffer and send all the files to memory we use the flush to clean the buffer memeory.
+	
+when 2 entites are working together and there is diff in speed then we use he buffer.
+	- 'file.close()' use to close the file.
+	- 'readable()' check the file is readabel or not.
+	- 'writable()' check the file is writable or not.
+	
+
+copying binary files
+	all the media file like image, audio, video are the binary type.
+	
+
+
+#create an copy of an image
+f = open('E:\\youtube tut\\fileHandel\\cam.jpg','rb')
+data = f.read()
+cpy = open('E:\\youtube tut\\fileHandel\\camcpy.jpg','wb')
+cpy.write(data)
+f.close()
+cpy.close()
+
+we have to 'b' if we are using the binary file.
+
+Random access Binary Files
+there are 2 type of acces to a file.
+	- Sequential (access file in sequential order)
+	- Random (we can move to any location of a file)
+	
+seek(offset, from): uese to skip the part and tell from where we have to start
+
+tell(): used to tell where is the file pointer at present. provide ust the current index.
+
+if we want to close the file automatically then we have to start the program with 'with' statement.
+
+the change the file to binary we can use the b in front of string or we can use the .enclosed()
+
+Pickle and unpickle
+	this is module avaialbe in python from storing and retriving an object of a class.
+
+storing the object into a file is called as pickle
+retriving a file is called as unpickle.
+
+java, c++ it is called as Serialization.
+
+
+Zip and unzip files or compressing and decompressing
+we have zipfile module
+
+
+
+
