@@ -1793,5 +1793,93 @@ Zip and unzip files or compressing and decompressing
 we have zipfile module
 
 
+--------------------
+Class 39
+OOPs
+
+Principals of OOPs
+	- Encapsulation
+	- Abstraction
+	- Inheritance
+	- Polymorphism
+
+OOPs is the mehodology or strategy to create the application.
+
+Object are defined with 2 things
+	- Properties (variables)
+	- Methods (functions)
+when we combine it, it is called as class of an object.
+
+- Encapsulation: it is combination of all the things together and keeping them into one single unit/capsule/box.
+
+- Abstraction: show the required featurs and hiding the internal details.
+	Abstraction  can be achieved with the help of Encapsulation.
+	
+- Inheritance: taking the properties of a parent class to the child class.
+
+-Polymorphism (Many forms): one name and many forms
+	
+Class vs Object
+Everything in this world physically or mentally existe are an object.
+for every object there is class.
+so class is the definition of an object.
+
+object has
+	- properties or attribute
+	- Methods / operations / functions
+
+We can define an object by defining there properties and methods that is called as Class.
+
+Real example: TV
+	- Properties
+		- Type (colored)
+		- screen size
+		- company name
+		- channel
+	
+	-Methods (functions)
+		- switch on 
+		- switch offset
+		- channel change
+		- increase/decrease volume
+		
+Class is a blueprint of an object
+
+objects are created as real memory
+
+how to write a class.
+	declaration and initialization are done in python using constructors.
+	__init__ works as a constructore
+	all those methods which are accessing the properties of a class must take self as a parameter.
+
+Java class object
+	className objName = new className()
+	
+Python class object
+	objName = constructor()
+	
+Self and constructors
+__init__ this it the constructor method.
+
+whenever we call the object of class this method is automatically called.
+if ther is any attribute in class then we have to give the __init__ method.
+
+if we don't write the __init__ then default constructor will be provided.
+
+what are the properties defalut constructor have?
+	- there are no properties.
+
+it we need the properties then we have to write our own init method.
+
+
+Self
+it is the reference to the parent object.
+
+when we create the object then that obj itself pass as a parameter.
+
+can we write more than one constructor?
+	yes we can create but recent will be use
+	
+Note: Constructors are not overloaded. there is not constructor overloading
 
 
