@@ -1882,4 +1882,55 @@ can we write more than one constructor?
 	
 Note: Constructors are not overloaded. there is not constructor overloading
 
+--------------------
+Class 40
+Type of methods and variable inside the class
+
+Variable:
+	- instance variable
+	- static / class variable
+	
+Methods:
+	- Instance method
+	- Class Metod
+	- Static method
+
+
+class Rectange:
+    def __init__(self,length,bredth):
+        self.length = length
+        self.bredth = bredth
+    def area(self):
+        return self.length * self.bredth
+    def param(self):
+        return 2*(self.length+self.bredth)
+
+r1= Rectange(10,5)
+
+def __init__(r1,10,5):
+        self.length = length
+        self.bredth = bredth
+
+rectangle is a class we have createdd the object with reference to that and r1 is the object.
+
+the obj is created inside the class.
+
+each instance have its own members.
+length, bredth are the attribute or the variable. these are called as your instance variable.
+
+as methods are accessing the variable so that is why we are calling these as instanse methods. 
+
+Note: Variable taken by instance variable is always self.
+
+
+we can also delare the instance variable.
+	- inside the constructor
+	- method inside the class
+	- Outside the method
+	
+can we change the self to any other thing?
+yes we can change as self is just a variabel name.
+
+if a mehtod is accessing the instance  varaibe then that method becomes the instance method.
+
 
