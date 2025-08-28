@@ -1934,3 +1934,56 @@ yes we can change as self is just a variabel name.
 if a mehtod is accessing the instance  varaibe then that method becomes the instance method.
 
 
+--------------Class 41---------
+Class static variable & class methods
+
+class Rectange:
+    def __init__(self,length,bredth):
+        self.length = length
+        self.bredth = bredth
+    def area(self):
+        return self.length * self.bredth
+    def param(self):
+        return 2*(self.length+self.bredth)
+
+__init__ costructor  and length and breadth are the instance variabe and self as a instanc reference.
+
+param is the instance method and it is using instance variable.
+area is also an instance method using length and breadth as  instance variable.
+
+every object we create use the length and breadth that's why we are calling instance variable as they use length and breadth
+
+if we declare the var outsid the method then it is called as class variable or static variable
+
+class Rectange:
+    count=0    
+    def __init__(self,length,bredth):
+        self.length = length
+        self.bredth = bredth
+    
+    def area(self):
+        return self.length * self.bredth
+    
+    def param(self):
+        return 2*(self.length+self.bredth)
+
+the count does't belong to any method it belongs to the class intself.
+
+to  use the count inside the method we have to use the classname.variable
+
+use @classmethod if we are using the class method.
+
+Static Methods: these are like global functions if there is some relation with class then put them inside the class
+
+Method is not accessing the class variable or method of class such methods is called as static method.
+
+@staticmethod to define it is the static method.
+
+------Accessors and mutators-----
+these are the type of methods that can be written inside an class.
+
+get method is used for returning the values of length.
+set method is used for changin the value of length.
+
+
+
