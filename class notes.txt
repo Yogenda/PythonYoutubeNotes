@@ -1985,5 +1985,82 @@ these are the type of methods that can be written inside an class.
 get method is used for returning the values of length.
 set method is used for changin the value of length.
 
+--------------- class 42 ------------------
+Polymorphism: one name and different forms
+	or
+one name but diff actions
+	- duck typing
+	- method overloading: 
+	- method overriding: redefining the metho of parent class into child class.
+	- operator overloading: 
+
+Abstract class interface
+we cannot create the object of the abstract class so the main purpos of this class is to share the content with its child class.
+
+Abstract method are not having the body.
+Note: if any mehtod is not having the body the it is called as abstract method.
+
+to make it work into the child class we have to override those method.
+
+	- to share the content that are common amongs the child class.
+	- method in child clas and override the methods from parent class.
+	
+it parent only have the abstract methos it is called as interface.
+
+Abstract an have dome concrete methos and some abstract methods and interface is whare abstract class have only abstract method.
+
+NOTE: there are not availabel directly it is availabe in the fome of module.
+
+from abc import ABC, abstractmethod
+ABC: Abstract Base Classes
+
+
+if any class is inherting from abc it becom an abstract class.
+
+if any class inheriting from abc it become an abstract class.
+
+
+---HW---
+1. 	class dice
+		side 
+		roll_dice()
+	
+randomly generat the number
+
+
+2. 	class circle
+		find the radius
+		area()
+		perameter()
+
+3. 	class book
+		title
+		author
+		price
+		
+		show_details()
+	
+4. 	class calculator
+		add(a,b)
+		sub(a,b)
+		mul(a,b)
+		div(a,b)
+
+5. accessor and mutators
+	class currencyConverter
+		curency
+		rate
+		set_Currency()
+		get_Currency()
+		set_rate()
+		get_rate()
+		conver(amount)
+		
+	Rate*amount = main amount
+	70*100 = 7000rs
+	
+
+
+
 
 
