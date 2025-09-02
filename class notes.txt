@@ -2099,6 +2099,7 @@ sysncronization:
 	
 	- Semaphone:it ia variabel where inital value is 1. when a thread enter into it then the value change to 0 and when again thread enter it value change to 1.
 	
+	
 
 
 
