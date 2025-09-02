@@ -2060,6 +2060,51 @@ randomly generat the number
 	70*100 = 7000rs
 	
 
+---------- Class 43 -----------
+Multithreading
+Multitasking
+
+the runnint program is called as process.
+it has on control flow.
+
+can a pvm run the multiple task at a time?
+yes it can run that process in called as multitasking.
+the processor can process only on task at a time and also it depend on processor.
+
+
+Multithreading
+	there is one process and it have multiple pieces ot the mulitple flow of controle. 
+	the process if a heavy process but the thread is light weight (when a process is using some resource providedd by hardware, db connection or it use the n/w connection or using file these are resouces.)
+
+thread are the child of main program.
+
+where to use the mulitthreading?
+	- Animations
+	- games
+	- server side
+	
+ways of creating the thread.
+	- using function/method
+	- using the class
+
+if you want to work with thread import package that is Threading.
+use start() function to start the thread.
+
+Thread Syncronization(mutex)
+
+Race condition: when both the function is using the same display function to display the data and it will be displayed in random condition.
+
+sysncronization:
+	- Mutex: it is a lock the first thread to finish the working. once the thread is done it work then it should release the lock.
+	
+	- Semaphone:it ia variabel where inital value is 1. when a thread enter into it then the value change to 0 and when again thread enter it value change to 1.
+	
+
+
+
+
+
+
 
 
 

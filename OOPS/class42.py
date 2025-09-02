@@ -207,7 +207,4 @@ Which of the following is false about protected class members ?
 Ans: They can be accessed by outside of the class.
 
 
-
-
-
 '''
